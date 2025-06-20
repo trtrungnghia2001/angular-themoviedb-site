@@ -66,7 +66,10 @@
                   [ngClass]="{ 'text-blue-500': isBookmark }"
                 ></i>
               </button>
-              <button class="cursor-pointer" (click)="setIsPlayMedia(true)">
+              <button
+                class="cursor-pointer hover:opacity-50 transition-all"
+                (click)="setIsPlayMedia(true)"
+              >
                 <i class="fa-solid fa-play"></i>
                 Play Trailer
               </button>
